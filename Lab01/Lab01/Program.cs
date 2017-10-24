@@ -6,7 +6,11 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("Data type : int");
+            Console.WriteLine("Size :" + sizeof(char));
+            Console.WriteLine("Minimum Value :" + (int)char.MinValue);
+            Console.WriteLine("Maximum Value :" + (int)char.MaxValue);
+
         }
     }
 }
