@@ -10,8 +10,8 @@ namespace variableProperties
             Console.Write("Please enter value :");
 
             double a = Convert.ToInt32(Console.ReadLine());
-            b = a / 1000;
-            c = b / 149597870691;
+            b = a / 1000; // แปลงจาก km to m
+            c = b / 149597870691; //แปลงจาก m to a.u.
             Console.WriteLine("km to A.U. | {0} ---> {1})", a, c );
             const double lightSpeed = 186000d;   // miles per second
             const double mileTokm = 1.609344;
